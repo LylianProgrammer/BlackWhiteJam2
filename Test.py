@@ -8,7 +8,7 @@ pygame.init()
 #Variablen/KONSTANTEN definieren
 #Variablen
 main = True
-menüaktiv = True
+menueaktiv = True
 levelaktiv = True
 
 #Konstanten
@@ -46,11 +46,9 @@ button_start = pygame.draw.rect(fenster, WEISS, text_start_rect, 1)
 button_levelauswahl = pygame.draw.rect(fenster, WEISS, text_levelauswahl_rect, 1)
 button_quit = pygame.draw.rect(fenster, WEISS, text_quit_rect, 1)
 
-fenster.fill(SCHWARZ)
-
 #Schleife Hauptprogramm
 while main == True:
-    if menüaktiv ==True:
+    if menueaktiv ==True:
         #Spielereingaben
         for event in pygame.event.get():
             if event.type == QUIT:
