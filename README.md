@@ -1,2 +1,2 @@
 # BlackWhiteJam2
-Blabla
+this is just a test
