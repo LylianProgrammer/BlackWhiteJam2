@@ -4,6 +4,8 @@ import pygame
 from pygame.locals import *
 pygame.init()
 
+import sys
+import random
 
 #Variablen/KONSTANTEN definieren
 #Variablen
@@ -14,7 +16,7 @@ levelaktiv = True
 #Konstanten
 W = 800
 H = 600
-FPS = 60
+FPS = 30
 SCHWARZ = (0,0,0)
 WEISS = (255,255,255)
 
@@ -64,6 +66,5 @@ while main == True:
 
 
 pygame.quit()                
-quit()
-exit()
+sys.exit()
 
